@@ -1,3 +1,4 @@
+// Supper Class
 class BankAccount {
     private String accountNumber;
     protected double balance;
@@ -23,7 +24,7 @@ class BankAccount {
     }
 }
 
-// First Supper Class
+// First Sub Class
 class SavingsAccount extends BankAccount {
 
     SavingsAccount(String n, double b) {
@@ -39,7 +40,7 @@ class SavingsAccount extends BankAccount {
     }
 }
 
-// Second Supper Class
+// Second Sub Class
 class CurrentAccount extends BankAccount {
 
     CurrentAccount(String n, double b) {
@@ -55,7 +56,7 @@ class CurrentAccount extends BankAccount {
     }
 }
 
-// Third Supper Class
+// Third Sub Class
 class StudentAccount extends BankAccount {
 
     StudentAccount(String n, double b) {
