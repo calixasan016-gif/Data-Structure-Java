@@ -1,3 +1,4 @@
+// Supper Class
 class Person {
     protected String name;
     protected String id;
@@ -12,6 +13,7 @@ class Person {
     }
 }
 
+// First Sub Class
 class Student extends Person {
     protected double gpa;
 
@@ -26,6 +28,7 @@ class Student extends Person {
     }
 }
 
+// Second Sub Class
 class Lecturer extends Person {
     private String faculty;
 
@@ -38,6 +41,7 @@ class Lecturer extends Person {
     }
 }
 
+// Third Sub Class
 // Level 3: inherits from Student AND (through Student) from Person
 class PostgraduateStudent extends Student {
     private String thesisTitle;
