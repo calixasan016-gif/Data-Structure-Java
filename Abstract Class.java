@@ -1,3 +1,4 @@
+// Supper Class
 abstract class BankAccount {
     private String accountNumber;
     protected double balance;
@@ -23,7 +24,7 @@ abstract class BankAccount {
     }
 }
 
-// First Supper Class
+// First Sub Class
 class SavingsAccount extends BankAccount {
     SavingsAccount(String n, double b) { super(n, b); }
 
@@ -55,7 +56,7 @@ class StudentAccount extends BankAccount {
     }
 }
 
-// Secpond Supper Class
+// Second Sub Class
 public class AbstractAccountDemo {
     public static void main(String[] args) {
         // BankAccount x = new BankAccount("BAS-1", 100); // cannot be instantiated
